@@ -1,0 +1,25 @@
+{
+  "name": "api-notion-basic",
+  "version": "1.0.0",
+  "description": "Es una api para comunicar contenido en notion",
+  "homepage": "https://github.com/RaphaelTheStegosaurus/Notion-Api-Basic#readme",
+  "bugs": {
+    "url": "https://github.com/RaphaelTheStegosaurus/Notion-Api-Basic/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaphaelTheStegosaurus/Notion-Api-Basic.git"
+  },
+  "license": "MIT",
+  "author": "Rafael Alberto Serrato Morales",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@notionhq/client": "^5.3.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
